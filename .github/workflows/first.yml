@@ -1,13 +1,14 @@
-
 name: myfirstjob
+
 on: push
+
 jobs:
   first-job:
     runs-on: ubuntu-18.04
 
     steps:
-      - name : welcome message 
+      - name: welcome message
         run: echo "Hello World"
-      - name: "list"
-        run: ls -l 
 
+      - name: list files
+        run: ls -l
